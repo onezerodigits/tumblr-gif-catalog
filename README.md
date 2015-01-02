@@ -1,10 +1,10 @@
-mlkshk-tumblr
+tumblr-gif-catalog
 =============
 
-*Update*: [mlkshk](http://mlkshk.com/) is alive and well, so go use it! But if you want your Tumblr site to be a gif catalog, this simple theme remains at your disposal.
+A tumblr theme for gif catalogs. 
 
-Tumblr theme for making a gif catalog. 
-Inspired by (but not modeled after) the most excellent mlkshk site.
+Inspired by (but not modeled after) the most excellent [mlkshk](http://mlkshk.com/) site.
+*Update*: mlkshk is alive and well, so go use it! But if you want your tumblr site to be a gif catalog, this simple theme remains at your disposal.
 
 ![screenshot](gif-tumblr.png)
 
@@ -20,5 +20,5 @@ Inspired by (but not modeled after) the most excellent mlkshk site.
 
 ## Other thing to know
 
-Tumblr won't accept animated gifs over 1 MB, so size down, change to adaptive palate, etc to get the size down.
+tumblr won't accept animated gifs over 1 MB, so size down, change to adaptive palate, etc to get the size down.
 
