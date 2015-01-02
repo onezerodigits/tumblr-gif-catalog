@@ -1,8 +1,12 @@
 mlkshk-tumblr
 =============
 
+*Update*: [mlkshk](http://mlkshk.com/) is alive and well, so go use it! But if you want your Tumblr site to be a gif catalog, this simple theme remains at your disposal.
+
 Tumblr theme for making a gif catalog. 
-Inspired by (but not modeled after) the loss of the most excellent mlkshk site.
+Inspired by (but not modeled after) the most excellent mlkshk site.
+
+![screenshot](gif-tumblr.png)
 
 ## How to use
 
@@ -12,6 +16,7 @@ Inspired by (but not modeled after) the loss of the most excellent mlkshk site.
 4. paste the contents of the html file in this repo in there
 5. click "Update Preview"
 6. click "Save"
+7. customize to your liking
 
 ## Other thing to know
 
