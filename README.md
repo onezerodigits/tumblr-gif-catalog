@@ -6,6 +6,8 @@ A tumblr theme for gif catalogs.
 Inspired by (but not modeled after) the most excellent [mlkshk](http://mlkshk.com/) site.
 *Update*: mlkshk is alive and well, so go use it! But if you want your tumblr site to be a gif catalog, this simple theme remains at your disposal.
 
+*Update No. 2*: Welp, mlkshk is going to shut down again, sounds like this time it's for real. Anyways, have this if you want.
+
 ![screenshot](gif-tumblr.png)
 
 ## How to use
