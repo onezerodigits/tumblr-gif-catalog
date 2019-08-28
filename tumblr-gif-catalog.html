@@ -9,79 +9,107 @@
     <meta content='{MetaDescription}' name='description' />
     {/block:Description}
     <meta content='width=device-width, initial-scale=1.0' name='viewport' />
-    <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
     <style>
-      * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+    body {
+    font-family: monospace;
+    font-size: 12px; }
 
-body {
-  font-family: 'Source Code Pro', sans-serif;
-  font-size: 12px; }
+    .blog-content {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        justify-items: stretch;
+        align-items: stretch;
+    }
+    
+    .permalinkpage .blog-content {
+        grid-template-columns: 100%;
+        width: 80%;
+        max-width:600px;
+        margin: 0 auto;
+    }
+    
+    @media (max-width: 767px){
+        .blog-content {
+             grid-template-columns: 50% 50%;
+            width: 80%;
+            margin: 0 auto;
+            overflow:hidden;
+        }
+    }
+    
+     @media (max-width: 420px){
+        .blog-content {
+             grid-template-columns: 100%;
+            width: 80%;
+            margin: 0 auto;
+            overflow:hidden;
+        }
+    }
+    
+    .postwrap {
+        padding:10px;
+    }
 
-.blog-content {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-align-items: flex-start;
-  align-items: flex-start;
-  -webkit-justify-content: space-between;
-  justify-content: space-between; }
+    .postwrap img,
+    .postwrap iframe {
+        width: 100%; 
+    }
 
-.outterwrap {
-  width: 18%;
-  height: auto;
-  margin:10px auto;
-}
-.permalinkpage .outterwrap{
-    width:80%;
-    max-width:500px;
-}
+    .postwrap img.avatar {
+        width:15px;
+        height:15px;
+        vertical-align:top;
+        margin-right: 8px;
+    }
 
-
-.outterwrap img {
-  width: 100%; }
-
-.outterwrap img.avatar {width:15px;height:15px;vertical-align:top;}
-.note {padding-bottom:1em;}
+    .note {
+        padding-bottom:1em;
+    }
  
-.sitename, #footer {
-  text-align: center;
-  margin: 5px 0; }
-
-.sitename form {
-  display: inline;
-  border-left: 1px solid #ccc;
-  margin-left: 5px;
-  padding-left: 5px; }
-
-.tags {
-  list-style-type: none;
-  margin: 0 0 5px 0;
-  padding: 0; }
-
-.tags li {
-  margin: 0;
-  padding: 0;
-  display: inline; }
+    .sitename, #footer {
+      text-align: center;
+      margin: 5px 0; 
+    }
+    
+    .sitename form {
+      display: inline;
+      border-left: 1px solid #ccc;
+      margin-left: 5px;
+      padding-left: 5px; 
+    }
+    
+    .tags {
+      list-style-type: none;
+      margin: 0 0 5px 0;
+      padding: 0; 
+    }
+    
+    .tags li {
+      margin: 0;
+      padding: 0;
+      display: inline; 
+    }
+    
+    blockquote {
+        margin:0;
+    }
     </style>
   </head>
   <body>
 
     <header class="sitename">
-    <a class='sitename' href='http://tumblr.com/'>{Description}</a>
+    <a class='sitename' href='/'>latest</a>
     <form action="/search" method="get">
-    <input type="text" name="q" value="{SearchQuery}"/>
-    <input type="submit" value="Search"/>
+        <input type="text" name="q" value="{SearchQuery}"/>
+        <input type="submit" value="Search"/>
     </form>
     </header>
 {block:PermalinkPage} 
 <div class="permalinkpage">
 {/block:PermalinkPage} 
-<div class='blog-content' id='blog'>
+<div class='blog-content'>
   {block:Posts}
-  <div class='outterwrap'>
+  <div class='postwrap'>
     {block:Text}
     <article class='post text'>
         {block:Title}
