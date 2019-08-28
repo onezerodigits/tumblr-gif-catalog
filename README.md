@@ -3,7 +3,7 @@ tumblr theme: gif catalog
 
 A very simple tumblr theme. I use it to keep a catalog of gifs, but it can also be a general starting point for further customization.
 
-![screenshot](gif-tumblr.png)
+![screenshot](screenshot.png)
 
 ## How to use
 
