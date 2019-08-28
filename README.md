@@ -1,4 +1,4 @@
-tumblr-gif-catalog
+tumblr theme: gif catalog
 =============
 
 A very simple tumblr theme. I use it to keep a catalog of gifs, but it can also be a general starting point for further customization.
